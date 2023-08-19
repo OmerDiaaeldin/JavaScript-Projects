@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-image: url("images/galaxy.gif");
+}
+
+body h1{
+    padding-bottom: 2em;
+    color: white;
+    text-shadow: 1px 1px purple;
+}
+
+#mass{
+    width: 15em;
+    height: 2em;
+}
+
+select{
+    height: 2.5em;
+}
+
+button{
+    height: 2.5em;
+}
+
+.flex-container{
+    margin-top: 3em;
+    background-color: rgba(255,255,255,0.5);
+    margin-left: 8em;
+    margin-right: 8em;
+    border-radius: 20px;
+}
+
+img{
+    width: 20em;
+    padding: 8em 0 8em 0;
+}
+
+
