@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Playing with CSS variables</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>Update CSS variables using <span>JS</span></header>
+        <div class="controls">
+            <label for="spacing">Spacing:</label>
+            <input type="range" name="spacing" min="0" max="200" value="10" data-sizing="px">
+            
+            <label for="blur">Blur: </label>
+            <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+            <label for="color">Color: </label>
+            <input type="color" name="baseColor" value="#ffc600">
+        </div>
+
+        <img src="iceCream.jpg" alt="">
+        <script src="script.js"></script>
+    </body>
+</html>
